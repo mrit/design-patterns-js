@@ -33,7 +33,7 @@ Quando olhamos um trecho de código que achamos estar usando algum padrão, deve
 
 ## Anti-Patterns
 
-Se nós consideramos que padrões são uma boa prática, obviamente anti-patterns representa uma má pratica, sendo mais prático seria uma um problema que já aprendemos a lidar pois agora temos um padrão para que consegue resolvê-la.
+Se nós consideramos que padrões são uma boa prática, obviamente anti-patterns representa uma má pratica. Isto é descreve uma má solução para um problema particular que desencadou um mal comportamento.
 
 Alguns exemplos de anti-patterns em JavaScript são:
 
