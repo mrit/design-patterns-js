@@ -2,6 +2,8 @@
 
 Olá pessoal tenho o prazer de apresentar para vocês o começo de uma série de artigos sobre Design Patterns em JavaScript.
 
+## Definição
+
 O que é isso? Porque usar?
 
 Design Patterns ou Padrões de projetos são padrões que descrevem problemas que ocorrem frequentemente e então descreve uma solução ao problema, a fim de poder reusar essa solução milhares de vezes. 
@@ -14,7 +16,7 @@ Legal mas quando eu vou usar esses padrões?
 
 Você chegou onde eu queria, como é a estrutura de um padrão? Basicamente ele tem quatro elementos essenciais são eles:
 
-+ Nome
+>+ Nome
 + Descrição do problema ou contexto para os quais o padrão se aplica
 + Descrição da solução genérica proposta
 + Descrição da aplicação do padrão (custos e beneficios)
@@ -29,5 +31,12 @@ Depois de sabermos a definição do que é um padrão de projeto, as vezes pensa
 Quando olhamos um trecho de código que achamos estar usando algum padrão, devemos listar alguns aspectos do código em que acreditamos que não se trata de um padrão ou conjunto de padrões. Em muitos casos de análise olhamos apenas se o código segue boas práticas e princípios de design que podem coincidir com alguns padrões por acidente. Mas o fato é: `qualquer solução que não faça interações e nem tenha regras definidas, essas soluções não tem padrões`
 
 
+## Anti-Patterns
 
+Se nós consideramos que padrões são uma boa prática, obviamente anti-patterns representa uma má pratica, sendo mais critico uma lição que já aprendemos a lidar pois agora temos um padrão para resolvê-la.
 
+Alguns exemplos de anti-patterns em JavaScript são:
+
+> + Poluir o contexto global de nossa aplicação com um monte de váriaveis globais
++ Modificar o prototype da classe `Object` ([Este é particulamente um dos mais famosos anti-patterns](http://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice))
+ 
