@@ -1,4 +1,4 @@
-<img src="https://lh4.googleusercontent.com/-8weNJa-J78s/VdYZIo8v1gI/AAAAAAAAEq0/qMV4NjREN_Q/w360-h300-no/2015-08-20.png" >
+<div align="center"><img src="https://lh4.googleusercontent.com/-8weNJa-J78s/VdYZIo8v1gI/AAAAAAAAEq0/qMV4NjREN_Q/w360-h300-no/2015-08-20.png"></div>
 
 Olá pessoal tenho o prazer de apresentar para vocês o começo de uma série de artigos sobre Design Patterns em JavaScript.
 
