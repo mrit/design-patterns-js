@@ -1,4 +1,4 @@
-![Design Patterns] (http://www.dev-metal.com/wp-content/uploads/2014/06/javascript-design-patterns-cover-1.jpg)
+<img src="http://www.dev-metal.com/wp-content/uploads/2014/06/javascript-design-patterns-cover-1.jpg" height="300">
 
 Olá pessoal tenho o prazer de apresentar para vocês o começo de uma série de artigos sobre Design Patterns em JavaScript.
 
