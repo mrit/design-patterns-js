@@ -38,5 +38,51 @@ Se nós consideramos que padrões são uma boa prática, obviamente anti-pattern
 Alguns exemplos de anti-patterns em JavaScript são:
 
 > + Poluir o contexto global de nossa aplicação com um monte de váriaveis globais
-+ Modificar o prototype da classe `Object` ([Este é particulamente um dos mais famosos anti-patterns](http://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice))
++ Modificar o prototype da classe `Object` ([Este é particulamente um dos mais famosos](http://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice))
  
+## Categorias de Design Patterns
+
+Os padrões de projeto são dividos em dois parâmetros: `propósito (criacional, estrutural, compotamental) e escopo  (classes e objetos)`
+
+![categorias design patters](http://www.devmedia.com.br/imagens/articles/226729/Classificacao%20gof.jpg)
+
+#### Propósito
+> + Criacional : Processo de criação de objetos
++ Estrutural  : Composição de classes e objetos
++ Comportamental : Interação e distribuição de responsabilidades entre objetos e classes
+ 
+#### Escopo
+> + Classe: Relação entre classes e subclasses (herança)
++ Objetos: Relação entre objetos (associação, composição)
+
+## Uma breve introdução a Classes 
+
+JavaScript não tem classes, no entanto elas são simuladas usando funções.
+
+A maneira mais comum de fazer isso é definir uma `function` e depois instanciar com o operador `new`. Nós podemos usar o this para definir novas propriedades e métodos como no exemplo abaixo:
+
+```javascript
+// A Racionais "class"
+function RacionaisMCs( music ) {
+ 
+  this.music = music;
+  this.year = "2014";
+ 
+  this.getInfo = function () {
+    return this.model + " " + this.year;
+  };
+ 
+}
+```
+
+Agora podemos instância um objeto usando a função construtora `RacionaisMCs` que acabamos de definir:
+
+```javascript
+var musicaPreferida = new RacionaisMCs("Negro Drama");
+
+musicaPreferida.year = "2002";
+
+console.log(musicaPreferida.getInfo());
+```
+
+Para mais maneiras de definir classes, olhe este [link](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
