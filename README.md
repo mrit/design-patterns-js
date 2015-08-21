@@ -69,7 +69,7 @@ function RacionaisMCs( music ) {
   this.year = "2014";
  
   this.getInfo = function () {
-    return this.model + " " + this.year;
+    return this.music + " " + this.year;
   };
  
 }
